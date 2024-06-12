@@ -18,7 +18,7 @@
 	 
 	 <form method="post" action="vote.jsp">
 	 	<c:forEach var="e" items="${clb.candidateList}">
-	 		<input type="radio" name="candidate" value="${e.id }"/> ${e.name} - ${e.party} <br/> ">
+	 		<input type="radio" name="candidate" value="${e.id }"/> ${e.name} - ${e.party} <br/>
 	 		
 	 	</c:forEach>
 	 	<br/> <input type="submit" value="Vote"/>

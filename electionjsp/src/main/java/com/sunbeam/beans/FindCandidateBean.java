@@ -28,5 +28,7 @@ public class FindCandidateBean {
 			e.printStackTrace();
 		}
 	}
+	
+	
 }
 
